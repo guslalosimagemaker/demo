@@ -1,0 +1,78 @@
+<div class="container mt-4">
+  <header class="text-center mb-4">
+    <h1>Demo Angular con Bootstrap Grid y Material</h1>
+  </header>
+
+  <div class="row mb-3">
+    <div class="col-md-8">
+      <div class="p-3 border bg-light">
+        <h2>Sección 1: Contenido Principal</h2>
+        <p>Esta columna utiliza <code>.col-md-8</code>. Aquí puedes colocar contenido principal.</p>
+        <p>Estamos usando el sistema de rejilla de Bootstrap para la estructura.</p>
+        <button mat-raised-button color="primary">Botón Primario (Material)</button>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="p-3 border bg-light">
+        <h3>Sección 2: Barra Lateral</h3>
+        <p>Esta columna utiliza <code>.col-md-4</code>.</p>
+        <button mat-stroked-button color="accent" class="mt-2">Botón Secundario (Material)</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row text-center">
+    <div class="col-lg-4 col-md-6 mb-3">
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>Tarjeta Material 1</mat-card-title>
+          <mat-card-subtitle>Elemento básico</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>Contenido de la tarjeta. Ideal para mostrar información modular.</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>ME GUSTA</button>
+          <button mat-button>COMPARTIR</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+    <div class="col-lg-4 col-md-6 mb-3">
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>Tarjeta Material 2</mat-card-title>
+          <mat-card-subtitle>Otro elemento</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            Bootstrap helpers como <code>.text-center</code> y <code>.mt-4</code> están disponibles.
+          </p>
+          <mat-icon color="warn">favorite</mat-icon>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-flat-button color="primary">Acción</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+    <div class="col-lg-4 col-md-12 mb-3">
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>Tarjeta Material 3</mat-card-title>
+          <mat-card-subtitle>Último elemento</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>Combinando Bootstrap para la estructura y Material para los componentes UI.</p>
+          <mat-slide-toggle color="primary">Toggle (Material)</mat-slide-toggle>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-icon-button aria-label="Example icon-button with a heart icon">
+            <mat-icon>thumb_up</mat-icon>
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+
+</div>
